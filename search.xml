@@ -8,21 +8,19 @@
       <link href="/2025/12/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/"/>
       <url>/2025/12/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是测试 Twikoo 评论系统是否能正常加载的文章正文。</p><h2 id="如果您在文章底部看到了评论框，就说明配置成功了！"><a href="#如果您在文章底部看到了评论框，就说明配置成功了！" class="headerlink" title="如果您在文章底部看到了评论框，就说明配置成功了！"></a>如果您在文章底部看到了评论框，就说明配置成功了！</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="机器学习笔记Chapter1"><a href="#机器学习笔记Chapter1" class="headerlink" title="机器学习笔记Chapter1"></a>机器学习笔记Chapter1</h1><h2 id="一-引入"><a href="#一-引入" class="headerlink" title="一.引入"></a>一.引入</h2><h3 id="1-1定义与应用"><a href="#1-1定义与应用" class="headerlink" title="1.1定义与应用"></a>1.1定义与应用</h3><p>机器学习是人工智能的一个子领域，机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域<br>常见应用有推荐系统：(Netflix 推荐电影、淘宝推荐商品)自然语言处理：(Siri&#x2F;小爱同学、机器翻译)<br>金融风控：(自动识别欺诈交易)医疗诊断：(分析医学影像，辅助医生诊断疾病)。</p><h3 id="1-2核心工作原理"><a href="#1-2核心工作原理" class="headerlink" title="1.2核心工作原理"></a>1.2核心工作原理</h3><p>1.输入数据和经验：向计算机提供大量的历史数据。<br>2.构建模型（学习）：计算机运行一个算法（例如神经网络），在这些数据中寻找模式和数学关系。<br>3.发现规律：算法通过不断调整自身的参数（权重），最小化预测错误，从而“学会”了如何区分猫和狗的关键特征。<br>4.预测&#x2F;决策： 当给它一张从未见过的新图片时，它能根据“学到的规律”来预测这到底是猫还是狗。</p><h3 id="1-3分类"><a href="#1-3分类" class="headerlink" title="1.3分类"></a>1.3分类</h3><p>1.监督学习<br>2.无监督学习<br>3.强化学习</p><hr>]]></content>
       
       
       <categories>
           
-          <category> 博客维护 </category>
+          <category> 笔记总结 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试 </tag>
-            
-            <tag> Twikoo </tag>
+            <tag> 机器学习 </tag>
             
         </tags>
       
