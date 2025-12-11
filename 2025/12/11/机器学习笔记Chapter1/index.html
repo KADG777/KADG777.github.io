@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>机器学习笔记Chapter1 | KBLOG</title><meta name="author" content="KADG"><meta name="copyright" content="KADG"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="机器学习笔记Chapter1 一. 引入 (Introduction) 1.1 定义与应用 机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域 。 * 核心目标：让计算机通过数据自我改进，而不是通过人为编写的具体规则。 常见应用： * 推荐系统：Netflix 推荐电影、淘宝推荐商品 [cite: 2]。 * 自然语言处理：Siri&#x2F;小">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>机器学习笔记Chapter1 | KBLOG</title><meta name="author" content="KADG"><meta name="copyright" content="KADG"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="机器学习笔记Chapter1 一. 引入 (Introduction) 1.1 定义与应用 机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域 。  核心目标：让计算机通过数据自我改进，而不是通过人为编写的具体规则。  常见应用：  推荐系统：Netflix 推荐电影、淘宝推荐商品。 自然语言处理：Siri&#x2F;小爱同学、机器翻译。 医疗诊断：分析医学影像">
 <meta property="og:type" content="article">
 <meta property="og:title" content="机器学习笔记Chapter1">
 <meta property="og:url" content="https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/index.html">
 <meta property="og:site_name" content="KBLOG">
-<meta property="og:description" content="机器学习笔记Chapter1 一. 引入 (Introduction) 1.1 定义与应用 机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域 。 * 核心目标：让计算机通过数据自我改进，而不是通过人为编写的具体规则。 常见应用： * 推荐系统：Netflix 推荐电影、淘宝推荐商品 [cite: 2]。 * 自然语言处理：Siri&#x2F;小">
+<meta property="og:description" content="机器学习笔记Chapter1 一. 引入 (Introduction) 1.1 定义与应用 机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域 。  核心目标：让计算机通过数据自我改进，而不是通过人为编写的具体规则。  常见应用：  推荐系统：Netflix 推荐电影、淘宝推荐商品。 自然语言处理：Siri&#x2F;小爱同学、机器翻译。 医疗诊断：分析医学影像">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://kadg777.github.io/img/KDkey.jpg">
 <meta property="article:published_time" content="2025-12-11T09:16:56.000Z">
-<meta property="article:modified_time" content="2025-12-11T14:34:41.770Z">
+<meta property="article:modified_time" content="2025-12-11T15:05:45.120Z">
 <meta property="article:author" content="KADG">
 <meta property="article:tag" content="机器学习">
 <meta name="twitter:card" content="summary">
@@ -18,7 +18,7 @@
   "url": "https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/",
   "image": "https://kadg777.github.io/img/KDkey.jpg",
   "datePublished": "2025-12-11T09:16:56.000Z",
-  "dateModified": "2025-12-11T14:34:41.770Z",
+  "dateModified": "2025-12-11T15:05:45.120Z",
   "author": [
     {
       "@type": "Person",
@@ -164,172 +164,139 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="KBLOG" type="application/atom+xml">
-</head><body><div id="web_bg" style="background-image: url(/img/landscape.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/KDkey.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/image/rocket.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">KBLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">机器学习笔记Chapter1</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">机器学习笔记Chapter1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-12-11T09:16:56.000Z" title="发表于 2025-12-11 17:16:56">2025-12-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-12-11T14:34:41.770Z" title="更新于 2025-12-11 22:34:41">2025-12-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/">笔记总结</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="机器学习笔记chapter1">机器学习笔记Chapter1</h1>
-<h2 id="一.-引入-introduction">一. 引入 (Introduction)</h2>
-<h3 id="定义与应用">1.1 定义与应用</h3>
-<p>机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域
-。 *
-<strong>核心目标</strong>：让计算机通过数据自我改进，而不是通过人为编写的具体规则。</p>
-<p><strong>常见应用</strong>： * <strong>推荐系统</strong>：Netflix
-推荐电影、淘宝推荐商品 [cite: 2]。 *
-<strong>自然语言处理</strong>：Siri/小爱同学、机器翻译。 *
-<strong>医疗诊断</strong>：分析医学影像，例如判断肿瘤是良性 (benign)
-还是恶性 (malignant) 。</p>
-<h3 id="核心工作原理">1.2 核心工作原理</h3>
-<ol type="1">
-<li><strong>输入数据</strong>：向计算机提供大量的历史数据（训练集）。</li>
-<li><strong>构建模型</strong>：计算机运行算法，在输入 <span
-class="math inline"><em>X</em></span> 和输出 <span
-class="math inline"><em>Y</em></span> 之间寻找映射关系 。</li>
-<li><strong>预测/决策</strong>：当给出新的输入 <span
-class="math inline"><em>X</em></span> 时，模型能够预测出相应的 <span
-class="math inline"><em>Y</em></span> 。</li>
-</ol>
-<h3 id="分类">1.3 分类</h3>
-<p>根据数据是否包含标签（即是否有正确的 <span
-class="math inline"><em>Y</em></span>
-值），机器学习主要分为以下几类：</p>
-<h4 id="监督学习-supervised-learning">1. 监督学习 (Supervised
-Learning)</h4>
-<p>这是目前应用最广泛的机器学习类型，其特点是<strong>数据集包含输入
-<span class="math inline"><em>X</em></span> 和对应的正确输出 <span
-class="math inline"><em>Y</em></span></strong> 。</p>
+</head><body><div id="web_bg" style="background-image: url(/img/landscape.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/KDkey.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/image/rocket.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">KBLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">机器学习笔记Chapter1</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">机器学习笔记Chapter1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-12-11T09:16:56.000Z" title="发表于 2025-12-11 17:16:56">2025-12-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-12-11T15:05:45.120Z" title="更新于 2025-12-11 23:05:45">2025-12-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/">笔记总结</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1>机器学习笔记Chapter1</h1>
+<h2 id="一-引入-Introduction">一. 引入 (Introduction)</h2>
+<h3 id="1-1-定义与应用">1.1 定义与应用</h3>
+<p>机器学习是人工智能的一个子领域。机器学习的定义为：计算机在没有明确编程的情况下学习能力的研究领域 。</p>
 <ul>
-<li><strong>回归 (Regression)</strong>
+<li><strong>核心目标</strong>：让计算机通过数据自我改进，而不是通过人为编写的具体规则。</li>
+</ul>
+<p><strong>常见应用</strong>：</p>
+<ul>
+<li><strong>推荐系统</strong>：Netflix 推荐电影、淘宝推荐商品。</li>
+<li><strong>自然语言处理</strong>：Siri/小爱同学、机器翻译。</li>
+<li><strong>医疗诊断</strong>：分析医学影像，例如判断肿瘤是良性 (benign) 还是恶性 (malignant) 。</li>
+</ul>
+<h3 id="1-2-核心工作原理">1.2 核心工作原理</h3>
+<ol>
+<li><strong>输入数据</strong>：向计算机提供大量的历史数据（训练集）。</li>
+<li><strong>构建模型</strong>：计算机运行算法，在输入 $X$ 和输出 $Y$ 之间寻找映射关系 。</li>
+<li><strong>预测/决策</strong>：当给出新的输入 $X$ 时，模型能够预测出相应的 $Y$ 。</li>
+</ol>
+<h3 id="1-3-分类">1.3 分类</h3>
+<p>根据数据是否包含标签（即是否有正确的 $Y$ 值），机器学习主要分为以下几类：</p>
+<h4 id="1-监督学习-Supervised-Learning">1. 监督学习 (Supervised Learning)</h4>
+<p>这是目前应用最广泛的机器学习类型，其特点是<strong>数据集包含输入 $X$ 和对应的正确输出 $Y$</strong> 。</p>
+<ul>
+<li>
+<p><strong>回归 (Regression)</strong></p>
 <ul>
 <li><strong>定义</strong>：预测连续的数值输出。</li>
 <li><strong>案例</strong>：根据房屋尺寸 (Size) 预测房价 (Price) 。</li>
 <li><strong>模型</strong>：试图拟合一条直线或曲线来穿过数据点。</li>
-</ul></li>
-<li><strong>分类 (Classification)</strong>
-<ul>
-<li><strong>定义</strong>：预测离散的类别输出（通常是 0 或
-1，或是有限的类别）。</li>
-<li><strong>案例</strong>：根据肿瘤大小 (Size) 和年龄 (Age)
-判断肿瘤性质（0=良性, 1=恶性）。</li>
-<li><strong>模型</strong>：试图找到一条边界（Decision
-Boundary）将不同类别的数据分开。</li>
-</ul></li>
 </ul>
-<h4 id="无监督学习-unsupervised-learning">2. 无监督学习 (Unsupervised
-Learning)</h4>
-<p>特点是数据<strong>只包含输入 <span
-class="math inline"><em>X</em></span>，没有对应的输出标签 <span
-class="math inline"><em>Y</em></span></strong>。算法需要自己从数据中发现结构或模式。</p>
+</li>
+<li>
+<p><strong>分类 (Classification)</strong></p>
+<ul>
+<li><strong>定义</strong>：预测离散的类别输出（通常是 0 或 1，或是有限的类别）。</li>
+<li><strong>案例</strong>：根据肿瘤大小 (Size) 和年龄 (Age) 判断肿瘤性质（0=良性, 1=恶性）。</li>
+<li><strong>模型</strong>：试图找到一条边界（Decision Boundary）将不同类别的数据分开。</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-无监督学习-Unsupervised-Learning">2. 无监督学习 (Unsupervised Learning)</h4>
+<p>特点是数据<strong>只包含输入 $X$，没有对应的输出标签 $Y$</strong>。算法需要自己从数据中发现结构或模式。</p>
 <ul>
 <li><strong>聚类 (Clustering)</strong>
 <ul>
 <li><strong>定义</strong>：将数据自动分组，使得组内数据相似度高，组间差异大。</li>
 <li><strong>案例</strong>：新闻分类（将相似主题的新闻聚在一起）、客户细分。</li>
-</ul></li>
 </ul>
-<h4 id="强化学习-reinforcement-learning">3. 强化学习 (Reinforcement
-Learning)</h4>
-<hr />
-<h2 id="二.-单变量线性回归-linear-regression-with-one-variable">二.
-单变量线性回归 (Linear Regression with One Variable)</h2>
-<h3 id="模型表示">2.1 模型表示</h3>
-<p>我们要建立一个模型 <span
-class="math inline"><em>f</em></span>，输入特征 <span
-class="math inline"><em>x</em></span>，输出预测值 <span
-class="math inline"><em>ŷ</em></span>。 * <strong>公式</strong>：<span
-class="math inline"><em>f</em><sub><em>w</em>, <em>b</em></sub>(<em>x</em>) = <em>w</em><em>x</em> + <em>b</em></span>
-[cite: 50, 61]。 * <span class="math inline"><em>w</em></span>：权重
-(weight) / 斜率。 * <span class="math inline"><em>b</em></span>：偏置
-(bias) / 截距。 * <span
-class="math inline"><em>x</em></span>：输入特征（如房屋面积）。 * <span
-class="math inline"><em>ŷ</em></span>：预测结果（如预测房价）。</p>
-<h3 id="代价函数-cost-function">2.2 代价函数 (Cost Function)</h3>
-<p>如何判断模型的好坏？我们需要一个<strong>代价函数 <span
-class="math inline"><em>J</em>(<em>w</em>, <em>b</em>)</span></strong>
-来衡量预测值与真实值之间的误差 。</p>
-<ul>
-<li><strong>均方误差公式</strong>： <span class="math display">$$J(w,b)
-= \frac{1}{2m} \sum_{i=1}^{m} (\hat{y}^{(i)} - y^{(i)})^2$$</span>
-[cite: 61]
-<ul>
-<li><span class="math inline"><em>m</em></span>：训练样本的数量。</li>
-<li>目标：找到 <span class="math inline"><em>w</em></span> 和 <span
-class="math inline"><em>b</em></span>，使得 <span
-class="math inline"><em>J</em>(<em>w</em>, <em>b</em>)</span>
-最小（<span
-class="math inline"><em>m</em><em>i</em><em>n</em><em>i</em><em>m</em><em>i</em><em>z</em><em>e</em><em>J</em></span>）。</li>
-</ul></li>
-<li><strong>直观理解</strong>：代价函数 <span
-class="math inline"><em>J</em></span>
-的图像通常像一个<strong>碗（凸函数）</strong>，我们的目标就是找到这个碗的最低点
-。</li>
+</li>
 </ul>
-<h3 id="梯度下降-gradient-descent">2.3 梯度下降 (Gradient Descent)</h3>
-<p>梯度下降是一种用于寻找函数最小值的算法，它可以自动找到让代价函数
-<span class="math inline"><em>J</em></span> 最小的 <span
-class="math inline"><em>w</em></span> 和 <span
-class="math inline"><em>b</em></span> 。</p>
+<h4 id="3-强化学习-Reinforcement-Learning">3. 强化学习 (Reinforcement Learning)</h4>
+<hr>
+<h2 id="二-单变量线性回归-Linear-Regression-with-One-Variable">二. 单变量线性回归 (Linear Regression with One Variable)</h2>
+<h3 id="2-1-模型表示">2.1 模型表示</h3>
+<p>我们要建立一个模型 $f$，输入特征 $x$，输出预测值 $\hat{y}$。</p>
 <ul>
-<li><p><strong>算法逻辑</strong>：</p>
-<ol type="1">
-<li>从任意的 <span class="math inline"><em>w</em>, <em>b</em></span>
-开始。</li>
+<li><strong>公式</strong>：$f_{w,b}(x) = wx + b$ 。
+<ul>
+<li>$w$：权重 (weight) / 斜率。</li>
+<li>$b$：偏置 (bias) / 截距。</li>
+<li>$x$：输入特征（如房屋面积）。</li>
+<li>$\hat{y}$：预测结果（如预测房价）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-2-代价函数-Cost-Function">2.2 代价函数 (Cost Function)</h3>
+<p>如何判断模型的好坏？我们需要一个<strong>代价函数 $J(w,b)$</strong> 来衡量预测值与真实值之间的误差 。</p>
+<ul>
+<li>
+<p><strong>均方误差公式</strong>：<br>
+$$J(w,b) = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y}^{(i)} - y^{(i)})^2$$</p>
+<ul>
+<li>$m$：训练样本的数量。</li>
+<li>目标：找到 $w$ 和 $b$，使得 $J(w,b)$ 最小（$minimize J$）。</li>
+</ul>
+</li>
+<li>
+<p><strong>直观理解</strong>：代价函数 $J$ 的图像通常像一个<strong>碗（凸函数）</strong>，我们的目标就是找到这个碗的最低点 。</p>
+</li>
+</ul>
+<h3 id="2-3-梯度下降-Gradient-Descent">2.3 梯度下降 (Gradient Descent)</h3>
+<p>梯度下降是一种用于寻找函数最小值的算法，它可以自动找到让代价函数 $J$ 最小的 $w$ 和 $b$ 。</p>
+<ul>
+<li>
+<p><strong>算法逻辑</strong>：</p>
+<ol>
+<li>从任意的 $w, b$ 开始。</li>
 <li>不断沿着梯度的反方向（下坡方向）更新参数，直到到达最低点。</li>
-</ol></li>
-<li><p><strong>更新公式</strong>： <span class="math display">$$w = w -
-\alpha \frac{\partial}{\partial w} J(w,b)$$</span> <span
-class="math display">$$b = b - \alpha \frac{\partial}{\partial b}
-J(w,b)$$</span> [cite: 84, 88]</p></li>
-<li><p><strong>学习率 <span class="math inline"><em>α</em></span>
-(Alpha)</strong>：</p>
+</ol>
+</li>
+<li>
+<p><strong>更新公式</strong>：<br>
+$$w = w - \alpha \frac{\partial}{\partial w} J(w,b)$$<br>
+$$b = b - \alpha \frac{\partial}{\partial b} J(w,b)$$</p>
+</li>
+<li>
+<p><strong>学习率 $\alpha$ (Alpha)</strong>：</p>
 <ul>
 <li><strong>定义</strong>：控制每一步下坡的步长大小。</li>
-<li><strong>如果 <span class="math inline"><em>α</em></span>
-过小</strong>：步长太小，下降速度极慢，需要很久才能收敛。</li>
-<li><strong>如果 <span class="math inline"><em>α</em></span>
-过大</strong>：步长太大，可能直接越过最低点，导致无法收敛甚至发散。</li>
-</ul></li>
+<li><strong>如果 $\alpha$ 过小</strong>：步长太小，下降速度极慢，需要很久才能收敛。</li>
+<li><strong>如果 $\alpha$ 过大</strong>：步长太大，可能直接越过最低点，导致无法收敛甚至发散。</li>
 </ul>
-<hr />
-<h2 id="三.-多变量线性回归与优化-multiple-features">三.
-多变量线性回归与优化 (Multiple Features)</h2>
-<h3 id="多变量模型">3.1 多变量模型</h3>
-<p>当有多个特征时（例如除了面积，还有卧室数、楼层等），模型变为： *
-<strong>公式</strong>：<span
-class="math inline"><em>f</em><sub><em>w⃗</em>, <em>b</em></sub>(<em>x⃗</em>) = <em>w</em><sub>1</sub><em>x</em><sub>1</sub> + <em>w</em><sub>2</sub><em>x</em><sub>2</sub> + ... + <em>w</em><sub><em>n</em></sub><em>x</em><sub><em>n</em></sub> + <em>b</em></span>。
-* <strong>向量化表示</strong>：利用线性代数，写成点积形式 <span
-class="math inline"><em>w⃗</em> ⋅ <em>x⃗</em> + <em>b</em></span> 。 *
-<strong>代码实现</strong>：使用 Python 的 NumPy 库
-<code>np.dot(w, x) + b</code> 进行计算，比 <code>for</code> 循环效率更高
-。</p>
-<h3 id="特征缩放-feature-scaling">3.2 特征缩放 (Feature Scaling)</h3>
+</li>
+</ul>
+<hr>
+<h2 id="三-多变量线性回归与优化-Multiple-Features">三. 多变量线性回归与优化 (Multiple Features)</h2>
+<h3 id="3-1-多变量模型">3.1 多变量模型</h3>
+<p>当有多个特征时（例如除了面积，还有卧室数、楼层等），模型变为：</p>
 <ul>
-<li><strong>问题</strong>：如果不同特征的取值范围差异很大（例如房价
-300-2000 vs 卧室数
-1-5），代价函数的等高线会变得细长，导致梯度下降路径曲折且慢。</li>
-<li><strong>解决方法</strong>：将所有特征缩放到相近的范围（通常是 -1 到
-1 之间。
+<li><strong>公式</strong>：$f_{\vec{w},b}(\vec{x}) = w_1x_1 + w_2x_2 + … + w_nx_n + b$。</li>
+<li><strong>向量化表示</strong>：利用线性代数，写成点积形式 $\vec{w} \cdot \vec{x} + b$ 。
+<ul>
+<li><strong>代码实现</strong>：使用 Python 的 NumPy 库 <code>np.dot(w, x) + b</code> 进行计算，比 <code>for</code> 循环效率更高 。</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-特征缩放-Feature-Scaling">3.2 特征缩放 (Feature Scaling)</h3>
+<ul>
+<li><strong>问题</strong>：如果不同特征的取值范围差异很大（例如房价 300-2000 vs 卧室数 1-5），代价函数的等高线会变得细长，导致梯度下降路径曲折且慢。</li>
+<li><strong>解决方法</strong>：将所有特征缩放到相近的范围（通常是 -1 到 1 之间。
 <ul>
 <li><strong>均值归一化 (Mean Normalization)</strong>。</li>
-<li><strong>Z-score 标准化</strong>：<span class="math inline">$x =
-\frac{x - \mu}{\sigma}$</span> （减去均值，除以标准差）。</li>
-</ul></li>
+<li><strong>Z-score 标准化</strong>：$x = \frac{x - \mu}{\sigma}$ （减去均值，除以标准差）。</li>
 </ul>
-<h3 id="检查收敛与学习率选择">3.3 检查收敛与学习率选择</h3>
+</li>
+</ul>
+<h3 id="3-3-检查收敛与学习率选择">3.3 检查收敛与学习率选择</h3>
 <ul>
-<li><strong>学习曲线</strong>：绘制 <strong>代价函数 <span
-class="math inline"><em>J</em></span></strong> 随
-<strong>迭代次数</strong>
-变化的曲线。如果曲线呈现下降并在最后趋于平坦，说明梯度下降正常工作
-。</li>
-<li><strong>调试</strong>：如果 <span
-class="math inline"><em>J</em></span> 随迭代次数上升，通常是因为学习率
-<span class="math inline"><em>α</em></span> 太大，应尝试减小 <span
-class="math inline"><em>α</em></span>（如 0.001, 0.01, 0.1
-等倍率尝试）。</li>
+<li><strong>学习曲线</strong>：绘制 <strong>代价函数 $J$</strong> 随 <strong>迭代次数</strong> 变化的曲线。如果曲线呈现下降并在最后趋于平坦，说明梯度下降正常工作 。</li>
+<li><strong>调试</strong>：如果 $J$ 随迭代次数上升，通常是因为学习率 $\alpha$ 太大，应尝试减小 $\alpha$（如 0.001, 0.01, 0.1 等倍率尝试）。</li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://KADG777.github.io">KADG</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/">https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://KADG777.github.io" target="_blank">KBLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a></div><div class="post-share"><div class="social-share" data-image="/img/KDkey.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/12/02/hello-world/" title="Hello World"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">Hello World</div></div><div class="info-2"><div class="info-item-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post 1$ hexo new &quot;My New Post&quot; More info: Writing Run server 1$ hexo server More info: Server Generate static files 1$ hexo generate More info: Generating Deploy to remote sites 1$ hexo deploy More info: Deployment </div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/KDkey.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">KADG</div><div class="author-info-description">以中有足乐者，不知口体之奉不若人也。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/KADG777"><i class="fab fa-github"></i><span>来看看我吧</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/KADG777" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:hcz2006@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Perfection is a maze</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0chapter1"><span class="toc-number">1.</span> <span class="toc-text">机器学习笔记Chapter1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80.-%E5%BC%95%E5%85%A5-introduction"><span class="toc-number">1.1.</span> <span class="toc-text">一. 引入 (Introduction)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 定义与应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 核心工作原理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0-supervised-learning"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1. 监督学习 (Supervised
-Learning)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0-unsupervised-learning"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">2. 无监督学习 (Unsupervised
-Learning)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-reinforcement-learning"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">3. 强化学习 (Reinforcement
-Learning)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C.-%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92-linear-regression-with-one-variable"><span class="toc-number">1.2.</span> <span class="toc-text">二.
-单变量线性回归 (Linear Regression with One Variable)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 模型表示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0-cost-function"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 代价函数 (Cost Function)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D-gradient-descent"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 梯度下降 (Gradient Descent)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89.-%E5%A4%9A%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E4%B8%8E%E4%BC%98%E5%8C%96-multiple-features"><span class="toc-number">1.3.</span> <span class="toc-text">三.
-多变量线性回归与优化 (Multiple Features)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E5%8F%98%E9%87%8F%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 多变量模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E5%BE%81%E7%BC%A9%E6%94%BE-feature-scaling"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 特征缩放 (Feature Scaling)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A3%80%E6%9F%A5%E6%94%B6%E6%95%9B%E4%B8%8E%E5%AD%A6%E4%B9%A0%E7%8E%87%E9%80%89%E6%8B%A9"><span class="toc-number">1.3.3.</span> <span class="toc-text">3.3 检查收敛与学习率选择</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/" title="机器学习笔记Chapter1">机器学习笔记Chapter1</a><time datetime="2025-12-11T09:16:56.000Z" title="发表于 2025-12-11 17:16:56">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/hello-world/" title="Hello World">Hello World</a><time datetime="2025-12-02T14:31:15.423Z" title="发表于 2025-12-02 22:31:15">2025-12-02</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By KADG</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"><script>(async () => {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://KADG777.github.io">KADG</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/">https://kadg777.github.io/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://KADG777.github.io" target="_blank">KBLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a></div><div class="post-share"><div class="social-share" data-image="/img/KDkey.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/12/02/hello-world/" title="Hello World"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">Hello World</div></div><div class="info-2"><div class="info-item-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post 1$ hexo new &quot;My New Post&quot; More info: Writing Run server 1$ hexo server More info: Server Generate static files 1$ hexo generate More info: Generating Deploy to remote sites 1$ hexo deploy More info: Deployment </div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/KDkey.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">KADG</div><div class="author-info-description">以中有足乐者，不知口体之奉不若人也。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/KADG777"><i class="fab fa-github"></i><span>来看看我吧</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/KADG777" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:hcz2006@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Perfection is a maze</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">机器学习笔记Chapter1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80-%E5%BC%95%E5%85%A5-Introduction"><span class="toc-number">1.1.</span> <span class="toc-text">一. 引入 (Introduction)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 定义与应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E6%A0%B8%E5%BF%83%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 核心工作原理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-%E5%88%86%E7%B1%BB"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0-Supervised-Learning"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1. 监督学习 (Supervised Learning)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0-Unsupervised-Learning"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">2. 无监督学习 (Unsupervised Learning)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-Reinforcement-Learning"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">3. 强化学习 (Reinforcement Learning)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C-%E5%8D%95%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92-Linear-Regression-with-One-Variable"><span class="toc-number">1.2.</span> <span class="toc-text">二. 单变量线性回归 (Linear Regression with One Variable)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E6%A8%A1%E5%9E%8B%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 模型表示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0-Cost-Function"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 代价函数 (Cost Function)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D-Gradient-Descent"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 梯度下降 (Gradient Descent)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89-%E5%A4%9A%E5%8F%98%E9%87%8F%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E4%B8%8E%E4%BC%98%E5%8C%96-Multiple-Features"><span class="toc-number">1.3.</span> <span class="toc-text">三. 多变量线性回归与优化 (Multiple Features)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E5%A4%9A%E5%8F%98%E9%87%8F%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 多变量模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E7%89%B9%E5%BE%81%E7%BC%A9%E6%94%BE-Feature-Scaling"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 特征缩放 (Feature Scaling)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-%E6%A3%80%E6%9F%A5%E6%94%B6%E6%95%9B%E4%B8%8E%E5%AD%A6%E4%B9%A0%E7%8E%87%E9%80%89%E6%8B%A9"><span class="toc-number">1.3.3.</span> <span class="toc-text">3.3 检查收敛与学习率选择</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/" title="机器学习笔记Chapter1">机器学习笔记Chapter1</a><time datetime="2025-12-11T09:16:56.000Z" title="发表于 2025-12-11 17:16:56">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/hello-world/" title="Hello World">Hello World</a><time datetime="2025-12-02T14:31:15.423Z" title="发表于 2025-12-02 22:31:15">2025-12-02</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By KADG</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"><script>(async () => {
   const showKatex = () => {
     document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
   }
