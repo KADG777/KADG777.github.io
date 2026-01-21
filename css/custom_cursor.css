@@ -1,11 +1,11 @@
 
   /* 鼠标样式 - 使用内嵌 SVG 以避免跨域问题 */
-  /* 默认指针：粉色箭头 */
+  /* 默认指针：蓝色小圆圈 */
   body {
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path fill='%23FFC0CB' stroke='%23000000' stroke-width='1.5' d='M4 4l0 21l5-6l5 10l4-2l-5-10l8 0z'/></svg>"), auto;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='16' cy='16' r='8' fill='%231E90FF' stroke='%23FFFFFF' stroke-width='2' opacity='0.8'/></svg>") 16 16, auto;
   }
   
-  /* 链接/图片指针：粉色爱心 */
+  /* 链接/图片指针：火箭 */
   a, img {
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path fill='%23FF69B4' stroke='%23FFFFFF' stroke-width='2' d='M16,28.261c0,0-14-9.432-14-16.261c0-4.418,3.582-8,8-8c2.473,0,4.72,1.214,6,3.088C17.28,5.214,19.527,4,22,4c4.418,0,8,3.582,8,8C30,18.829,16,28.261,16,28.261z'/></svg>"), pointer;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path fill='%23FF4500' d='M16 2 L22 12 L16 10 L10 12 Z'/><path fill='%23D3D3D3' d='M10 12 L22 12 L22 24 L10 24 Z'/><path fill='%23FF4500' d='M10 24 L6 30 L10 28 L16 30 L22 28 L26 30 L22 24 Z'/></svg>") 16 0, pointer;
   }
