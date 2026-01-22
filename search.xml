@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>数学建模与matlab课程笔记</title>
+      <link href="/2026/01/22/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%8Ematlab%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+      <url>/2026/01/22/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%8Ematlab%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>数学建模与matlab课程笔记</h1><p>PS: 本课程笔记仅使用于浙江工商大学对计科专业和数字经济专业的培养方案</p><h2 id="一-对变化进行建模">一. 对变化进行建模</h2><img src="/img/24.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/25.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="二-MATLAB的部分基本操作">二. MATLAB的部分基本操作</h2><img src="/img/26.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/27.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="三-建模过程，比例性，几何相似性">三. 建模过程，比例性，几何相似性</h2><img src="/img/28.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="四-模型拟合">四. 模型拟合</h2><img src="/img/29.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/30.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="五-实验建模">五. 实验建模</h2><img src="/img/31.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/32.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="六-模拟办法建模">六. 模拟办法建模</h2><img src="/img/33.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="七-离散概率模型">七. 离散概率模型</h2><img src="/img/34.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="八-离散模型优化">八. 离散模型优化</h2><img src="/img/35.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/36.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="九-图论，概率论，博弈论">九. 图论，概率论，博弈论</h2><img src="/img/37.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="十-微分方程建模">十. 微分方程建模</h2><img src="/img/38.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/39.jpg" style="width: 100%; display: block; margin-bottom: 20px;" />]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记总结 </category>
+          
+          <category> 资料分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学建模 </tag>
+            
+            <tag> matlab </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>概率论与数理统计复习笔记及资料</title>
       <link href="/2026/01/21/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%8F%8A%E8%B5%84%E6%96%99/"/>
       <url>/2026/01/21/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%8F%8A%E8%B5%84%E6%96%99/</url>
@@ -23,35 +52,6 @@
         <tags>
             
             <tag> 概率论与数理统计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>数学建模与matlab课程笔记</title>
-      <link href="/2026/01/21/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%8Ematlab%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-      <url>/2026/01/21/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%8Ematlab%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>数学建模与matlab课程笔记</h1><p>PS: 本课程笔记仅使用于浙江工商大学对计科专业和数字经济专业的培养方案</p><h2 id="一-对变化进行建模">一. 对变化进行建模</h2><img src="/img/24.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/25.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="二-MATLAB的部分基本操作">二. MATLAB的部分基本操作</h2><img src="/img/26.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/27.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="三-建模过程，比例性，几何相似性">三. 建模过程，比例性，几何相似性</h2><img src="/img/28.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="四-模型拟合">四. 模型拟合</h2><img src="/img/29.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/30.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="五-实验建模">五. 实验建模</h2><img src="/img/31.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/32.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="六-模拟办法建模">六. 模拟办法建模</h2><img src="/img/33.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="七-离散概率模型">七. 离散概率模型</h2><img src="/img/34.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="八-离散模型优化">八. 离散模型优化</h2><img src="/img/35.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/36.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="九-图论，概率论，博弈论">九. 图论，概率论，博弈论</h2><img src="/img/37.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><h2 id="十-微分方程建模">十. 微分方程建模</h2><img src="/img/38.jpg" style="width: 100%; display: block; margin-bottom: 20px;" /><img src="/img/39.jpg" style="width: 100%; display: block; margin-bottom: 20px;" />]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记总结 </category>
-          
-          <category> 资料分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数学建模 </tag>
-            
-            <tag> matlab </tag>
             
         </tags>
       
