@@ -15,13 +15,13 @@
   /* Main Content Column (Left) */
   /* This contains the Planet Slider AND the Recent Posts */
   body.home .layout > div:first-child {
-    width: 68% !important;
+    width: 66% !important;
     order: 1;
   }
   
   /* Right Sidebar (Aside) */
   body.home #aside-content {
-    width: 30% !important;
+    width: 32% !important;
     padding-left: 0 !important; /* Remove padding-left as we use space-between */
     order: 2;
   }
