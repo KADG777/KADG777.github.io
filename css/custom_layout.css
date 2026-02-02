@@ -1,0 +1,35 @@
+/* Widen the main container */
+.layout {
+  max-width: 1400px !important;
+}
+
+/* Adjust columns for wider screens - Only for Homepage */
+@media screen and (min-width: 900px) {
+  /* Ensure Layout uses Space Between for equal gaps */
+  body.home .layout {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+
+  /* Main Content Column (Left) */
+  /* This contains the Planet Slider AND the Recent Posts */
+  body.home .layout > div:first-child {
+    width: 72% !important;
+    order: 1;
+  }
+  
+  /* Right Sidebar (Aside) */
+  body.home #aside-content {
+    width: 26% !important;
+    padding-left: 0 !important; /* Remove padding-left as we use space-between */
+    order: 2;
+  }
+}
+
+/* For very large screens */
+@media screen and (min-width: 2000px) {
+  .layout {
+    max-width: 70% !important;
+  }
+}
