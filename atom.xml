@@ -160,9 +160,9 @@
     <link href="https://kadg777.github.io/2025/12/10/hello-world/"/>
     <id>https://kadg777.github.io/2025/12/10/hello-world/</id>
     <published>2025-12-10T02:00:00.000Z</published>
-    <updated>2026-02-02T07:45:11.358Z</updated>
+    <updated>2026-02-02T07:58:45.884Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="font-size: 24px; line-height: 1.8;">   欢迎来到我的博客。何其有幸，能在这跌宕起伏的年代与诸位在此相遇、共同学习。若这些拙作能为您带来哪怕微小的启发或帮助，便是我创作的最大意义。</div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="font-size: 24px; line-height: 1.8;">**欢迎来到我的博客。何其有幸，能在这跌宕起伏的年代与诸位在此相遇、共同学习。若这些拙作能为您带来哪怕微小的启发或帮助，便是我创作的最大意义。**</div><br><h2 id="关于本站">关于本站</h2><p>本站基于 <strong>Hexo</strong> 框架构建，托管于 <strong>GitHub Pages</strong>，旨在打造一个极简、高效且富有个性的知识分享平台。</p><h3 id="🛠️-技术栈-Tech-Stack">🛠️ 技术栈 (Tech Stack)</h3><ul><li><strong>核心框架</strong>: <a href="https://hexo.io/zh-cn/">Hexo</a><ul><li>一个快速、简洁且高效的静态博客框架，支持 Markdown 解析与静态页面生成。</li></ul></li><li><strong>托管服务</strong>: <a href="https://pages.github.com/">GitHub Pages</a><ul><li>利用 Git 版本控制系统进行代码管理与自动化部署，实现全球高速访问。</li></ul></li><li><strong>UI 主题</strong>: <a href="https://butterfly.js.org/">Butterfly</a> (深度定制版)<ul><li>集成 <strong>3D 星球导航</strong>、<strong>APlayer 音乐播放器</strong>、<strong>动态打字机特效</strong> 等个性化模块。</li></ul></li></ul><h3 id="🌟-站点特色">🌟 站点特色</h3><ol><li><strong>沉浸式阅读体验</strong>: 响应式布局设计，完美适配 PC 与移动端，支持侧边栏自定义与夜间模式。</li><li><strong>动态交互设计</strong>: 首页顶部集成了原创的 <strong>“星球传送门”</strong>，将歌单、归档、简介等核心板块以动态 3D 形式呈现。</li><li><strong>多媒体集成</strong>: 全站接入网易云音乐播放列表，支持后台播放与歌词同步，让阅读不再单调。</li><li><strong>极致性能优化</strong>: 采用静态资源压缩与 CDN 加速，确保秒级加载体验。</li></ol>]]></content>
     
     
       
