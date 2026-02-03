@@ -116,6 +116,31 @@
     
     
     <entry>
+      <title>神经网络介绍</title>
+      <link href="/2025/12/11/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+      <url>/2025/12/11/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>神经网络介绍</h1><h2 id="一-神经网络与深度学习的背景">一.神经网络与深度学习的背景</h2><p>深度学习缘起于对“用分层表示逼近复杂函数”的追求。早期的感知机与前馈网络在上世纪五六十年代提出，但受限于算力、数据与训练算法，发展一度放缓。2006 年前后，层级预训练与更稳定的优化技术让多层网络重获活力，随后在大规模数据与 GPU 的加持下进入快速发展期。</p><h3 id="1-重要里程碑">1.重要里程碑</h3><ul><li>2009–2012：在语音识别领域，深度神经网络与 HMM 结合显著降低词错误率，首先取得行业级突破。</li><li>2012：AlexNet 在 ImageNet 竞赛中夺冠，计算机视觉迎来深度学习时代。</li><li>2013–2016：NLP 领域以词向量、RNN/LSTM、Seq2Seq 为代表的模型崛起，端到端建模成为主流。</li><li>2017 起：Transformer 架构统一视觉与文本建模范式，预训练与大模型推动多模态发展。</li></ul><h3 id="2-为什么有效">2.为什么有效</h3><ul><li>表达能力强：多层非线性组合可学习到从低级到高级的抽象特征。</li><li>端到端训练：减少人工特征工程，直接以任务目标优化网络参数。</li><li>数据与算力：海量标注数据与 GPU/TPU 提供足够的统计与计算支撑。</li></ul><h3 id="3-典型应用">3.典型应用</h3><ul><li>语音：声学建模、语音识别、语音合成与降噪。</li><li>视觉：图像分类、检测、分割、视频理解与生成。</li><li>NLP：机器翻译、问答、文本生成、检索与对话系统。</li><li>多模态与跨域：视觉-语言理解、推荐与时序预测、强化学习。</li></ul><h3 id="4-发展趋势">4.发展趋势</h3><ul><li>更高效的训练与推理：蒸馏、压缩、低比特量化与硬件协同。</li><li>数据与监督的优化：弱监督、自监督与合成数据。</li><li>安全与可解释：鲁棒性、隐私与模型可解释性研究持续推进。</li></ul><h2 id="二-神经元与神经网络的比较">二.神经元与神经网络的比较</h2><div style="display:flex;flex-wrap:wrap;gap:24px;justify-content:center;">  <div style="flex:1 1 380px;max-width:560px;">    <h3 style="text-align:center;">Single Neuron</h3>    <img src="/img/single%20neural.png" alt="Single Neuron" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />    <p>单个神经元将输入向量与权重做加权求和，加上偏置，经激活函数得到输出，形式为 y = σ(w·x + b)。它是神经网络的基本功能单元。</p>  </div>  <div style="flex:1 1 380px;max-width:560px;">    <h3 style="text-align:center;">Neural Network</h3>    <img src="/img/neural%20network.jpg" alt="Neural Network" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);" />    <p>神经网络由多层神经元构成，层与层之间通过权重连接形成复合非线性映射。多层表示能够自动学习更抽象、更稳定的特征，从而在复杂任务上取得优异表现。</p>  </div></div><h2 id="三-Why-神经网络有效？">三.Why 神经网络有效？</h2><div style="text-align:center;">  <img src="/img/neural%20network.jpg"       alt="Neural Network"       loading="lazy"       style="width:100%;max-width:820px;height:auto;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.12);margin:12px auto;"/>  <div style="font-size:0.95rem;color:#777;margin-top:6px;">    多层网络结构示意：输入层—隐藏层—输出层（居中显示，适配移动端）  </div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>机器学习笔记Chapter1</title>
       <link href="/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/"/>
       <url>/2025/12/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0Chapter1/</url>
