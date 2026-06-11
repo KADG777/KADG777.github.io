@@ -1,6 +1,6 @@
 (function () {
   var OFFICIAL_MONTH_DAY = '06-12';
-  var TEST_DATES = ['2026-06-01'];
+  var TEST_DATES = ['2026-06-11'];
   var STORAGE_PREFIX = 'birthday-bot-popup-dismissed-';
 
   function getSiteDate(date) {
