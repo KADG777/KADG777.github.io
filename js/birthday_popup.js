@@ -85,7 +85,7 @@
           '</div>' +
         '</header>' +
         '<div class="bbp-body">' +
-          '<p class="bbp-message" id="bbp-message">祝最帅最天才的站长大人生日快乐！</p>' +
+          '<p class="bbp-message" id="bbp-message">祝最天才的站长大人生日快乐！</p>' +
           '<p class="bbp-wish" id="bbp-wish">愿你在二开头的年纪，继续大胆追梦，把热爱写进每一天。</p>' +
         '</div>' +
         '<div class="bbp-signal" aria-hidden="true">HAPPY&nbsp;LEVEL&nbsp;UP</div>' +
