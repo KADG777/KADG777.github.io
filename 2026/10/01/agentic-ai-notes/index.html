@@ -181,7 +181,7 @@
 <li>检查事实、结构和引用，必要时补充检索。</li>
 <li>修订并输出报告。</li>
 </ol>
-<p><img src="/img/agentic-ai-notes/essay-workflow.png" alt="研究报告工作流：生成大纲、检索资料、写初稿、检查与修订" / loading='lazy'></p>
+<p><img src="/img/essay-workflow.png" alt="研究报告工作流：生成大纲、检索资料、写初稿、检查与修订" / loading='lazy'></p>
 <p>一个模型可以完成多个步骤，也可以由不同模型分别负责；使用多个模型并不是 Agentic AI 的必要条件。</p>
 <blockquote>
 <p><strong>术语辨析：</strong> 零样本提示（Zero-shot）指提示中没有提供输入输出示例；单样本和少样本提示则提供一个或多个示例。它们描述的是提示方式。单次生成与多步工作流描述的是执行结构，因此，多步工作流中的某次模型调用也可以使用零样本提示。</p>
@@ -455,7 +455,7 @@
 <p>带外部反馈的循环是“生成 → 执行或检查 → 获取反馈 → 修订”。应设置轮次或时间上限，并以验证结果决定是否继续。</p>
 <h3 id="3-4-多模态反思：检查实际生成的图表">3.4 多模态反思：检查实际生成的图表</h3>
 <p>以对比两个年份第一季度咖啡销量为例，模型先生成 Python 绘图代码并执行，再把代码和实际图表交给多模态模型检查。</p>
-<p><img src="/img/agentic-ai-notes/chart-reflection.png" alt="图表反思流程：生成并执行第一版代码，检查图片，再修改代码并重新执行" / loading='lazy'></p>
+<p><img src="/img/chart-reflection.png" alt="图表反思流程：生成并执行第一版代码，检查图片，再修改代码并重新执行" / loading='lazy'></p>
 <p>检查重点包括：图表类型是否符合比较目标，标题和坐标轴是否清楚，分组与图例是否易读，数值和单位是否与数据一致。只看代码无法发现所有视觉问题，因此检查对象应包含最终图片。</p>
 <p>反思增加了调用次数，是否保留需要比较同一批任务在加入反思前后的质量、延迟和成本，评估方法见第六节。</p>
 <h3 id="3-5-检查与修订为什么可以分成两次调用">3.5 检查与修订为什么可以分成两次调用</h3>
@@ -557,7 +557,7 @@
 <h3 id="5-1-MCP-解决什么问题">5.1 MCP 解决什么问题</h3>
 <p>MCP（Model Context Protocol，模型上下文协议）由 Anthropic 于 2024 年发布，提供连接 AI 应用、外部工具与数据源的标准接口。<a target="_blank" rel="noopener" href="https://www.anthropic.com/news/model-context-protocol">Anthropic 发布说明</a></p>
 <p>假设有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span></span></span></span> 个应用和 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 类外部系统，分别开发适配可能形成接近 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>×</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">m \times n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 组集成。标准接口允许应用侧连接能力和服务侧封装复用，可用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">m+n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 描述这一思路；这只是架构上的简化，不代表实际开发成本严格按该公式变化。</p>
-<p><img src="/img/agentic-ai-notes/mcp-integration.png" alt="MCP 的集成思路：应用侧统一连接，服务侧复用工具封装" / loading='lazy'></p>
+<p><img src="/img/mcp-integration.png" alt="MCP 的集成思路：应用侧统一连接，服务侧复用工具封装" / loading='lazy'></p>
 <h3 id="5-2-三个参与方与三类服务能力">5.2 三个参与方与三类服务能力</h3>
 <table>
 <thead>
@@ -940,7 +940,7 @@ R=\frac{|S\cap G|}{|G|}
 </tr>
 </tbody>
 </table>
-<p><img src="/img/agentic-ai-notes/multi-agent-hierarchy.png" alt="双层协作结构：管理者协调研究员、设计师和写作者" / loading='lazy'></p>
+<p><img src="/img/multi-agent-hierarchy.png" alt="双层协作结构：管理者协调研究员、设计师和写作者" / loading='lazy'></p>
 <p>两方“执行者—审查者”协作也很常见，适合生成与审核职责明确的任务。初次实现可以从简单结构开始，只有在职责或并行需求确实增加时再扩展。</p>
 <h3 id="10-3-设计好交接内容">10.3 设计好交接内容</h3>
 <p>每个角色都应有明确的输入、输出和完成标准。交接结果除了结论，还应包含关键证据、来源、未解决问题和必要的结构化数据。</p>
